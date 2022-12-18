@@ -1,6 +1,23 @@
 <html>
-<body>
-<p>
-HELLO
-</p>
+    <head>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="timer.css">
+    </head>
+<body onload="LoadedDoc()">
+    <h1> Count Down Timer </h1>
+    <div class ="counter">
+      <div id="timer">
+        <span id="hour"> 00 </span> :
+        <span id="minutes"> 00 </span> :
+        <span id="seconds"> 00 </span>
+      </div>
+    
+      <div class="controls">
+        <button class="control" id="start" onclick="startTimer()">Start</button>
+        <button class="control" id="pause">Pause</button>
+        <button class="control" id="resume">Resume</button>
+        <button class="control" id="stop">Stop</button>
+        <button class="control" id="reset">Reset</button>
+      </div>
+    </div>
 </body>

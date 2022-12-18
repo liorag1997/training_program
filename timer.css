@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: #322567;
+  }
+  .counter{
+    margin: 20px;
+    text-align: center;
+    background-color: #eda;
+    border: 3px solid;
+    box-shadow: 10px 5px 6px #111;
+    border-radius: 50px;
+    height: 200px;
+  }
+  #timer {
+    width: 99%;
+    height: 50px;
+    margin:  50px 0 0 0;
+    font-size: 30px;
+    font-family: cursive;
+  }
+  .controls{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  button{
+    padding: 10px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #535354;
+  }
+  
